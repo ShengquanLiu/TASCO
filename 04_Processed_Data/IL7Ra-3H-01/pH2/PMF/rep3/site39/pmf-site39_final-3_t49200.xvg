@@ -1,0 +1,68 @@
+# This file was created Tue Sep  8 21:24:40 2026
+# Created by:
+#                       :-) GROMACS - gmx awh, 2024.6 (-:
+# 
+# Executable:   /usr/local/gromacs/bin/gmx
+# Data prefix:  /usr/local/gromacs
+# Working dir:  /home/ubuntu/software/gromacs-2024.6/PMF/yiwancheng-3
+# Command line:
+#   gmx awh -s awh96-site39_sim-4.tpr -f awh96-site39_sim-4.edr -o pmf-site39_final-4.xvg
+# gmx awh is part of G R O M A C S:
+#
+# Gyas ROwers Mature At Cryogenic Speed
+#
+@    title "AWH"
+@    xaxis  label "(nm, deg or lambda state)"
+@    yaxis  label "(kJ/mol)"
+@TYPE xy
+@ view 0.15, 0.15, 0.75, 0.85
+@ legend on
+@ legend box on
+@ legend loctype view
+@ legend 0.78, 0.8
+@ legend length 2
+@ s0 legend "PMF"
+# AWH metadata: target error = 4.01 kT = 10.00 kJ/mol
+# AWH metadata: log sample weight = 3.95
+    0.0000  37.1791
+    0.0488  36.3266
+    0.0976  24.0629
+    0.1463  13.3046
+    0.1951  8.00061
+    0.2439  4.71454
+    0.2927  1.39572
+    0.3415  0
+    0.3902  1.42969
+    0.4390  4.72403
+    0.4878  12.0437
+    0.5366  25.1737
+    0.5854  37.1124
+    0.6341  37.1791
+    0.6829  37.1791
+    0.7317  37.1791
+    0.7805  37.1791
+    0.8293  37.1791
+    0.8780  37.1791
+    0.9268  37.1791
+    0.9756  37.1791
+    1.0244  37.1791
+    1.0732  37.1791
+    1.1220  37.1791
+    1.1707  37.1791
+    1.2195  37.1791
+    1.2683  37.1791
+    1.3171  37.1791
+    1.3659  37.1791
+    1.4146  37.1791
+    1.4634  37.1791
+    1.5122  37.1791
+    1.5610  37.1791
+    1.6098  37.1791
+    1.6585  37.1791
+    1.7073  37.1791
+    1.7561  37.1791
+    1.8049  37.1791
+    1.8537  37.1791
+    1.9024  37.1791
+    1.9512  37.1791
+    2.0000  37.1791

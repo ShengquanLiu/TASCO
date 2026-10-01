@@ -1,0 +1,68 @@
+# This file was created Tue Sep  8 16:04:58 2026
+# Created by:
+#                       :-) GROMACS - gmx awh, 2024.6 (-:
+# 
+# Executable:   /usr/local/gromacs/bin/gmx
+# Data prefix:  /usr/local/gromacs
+# Working dir:  /home/ubuntu/software/gromacs-2024.6/PMF/yiwancheng-1
+# Command line:
+#   gmx awh -s awh96-site32_sim-3.tpr -f awh96-site32_sim-3.edr -o pmf-site32_final-3.xvg
+# gmx awh is part of G R O M A C S:
+#
+# Guyana Rwanda Oman Macau Angola Cameroon Senegal
+#
+@    title "AWH"
+@    xaxis  label "(nm, deg or lambda state)"
+@    yaxis  label "(kJ/mol)"
+@TYPE xy
+@ view 0.15, 0.15, 0.75, 0.85
+@ legend on
+@ legend box on
+@ legend loctype view
+@ legend 0.78, 0.8
+@ legend length 2
+@ s0 legend "PMF"
+# AWH metadata: target error = 4.01 kT = 10.00 kJ/mol
+# AWH metadata: log sample weight = 3.99
+    0.0000  45.5678
+    0.0488  45.5678
+    0.0976  45.5678
+    0.1463  45.5678
+    0.1951  45.5678
+    0.2439  45.5678
+    0.2927  45.5678
+    0.3415  45.5678
+    0.3902  45.5678
+    0.4390  45.5678
+    0.4878  45.5678
+    0.5366  45.5678
+    0.5854  45.5678
+    0.6341  45.5678
+    0.6829  45.5678
+    0.7317  45.5654
+    0.7805  34.8332
+    0.8293  15.3961
+    0.8780  1.396
+    0.9268  0
+    0.9756  8.45578
+    1.0244  23.559
+    1.0732  41.9757
+    1.1220  45.5678
+    1.1707  45.5678
+    1.2195  45.5678
+    1.2683  45.5678
+    1.3171  45.5678
+    1.3659  45.5678
+    1.4146  45.5678
+    1.4634  45.5678
+    1.5122  45.5678
+    1.5610  45.5678
+    1.6098  45.5678
+    1.6585  45.5678
+    1.7073  45.5678
+    1.7561  45.5678
+    1.8049  45.5678
+    1.8537  45.5678
+    1.9024  45.5678
+    1.9512  45.5678
+    2.0000  45.5678

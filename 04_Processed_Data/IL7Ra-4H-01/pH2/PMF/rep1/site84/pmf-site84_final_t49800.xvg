@@ -1,0 +1,68 @@
+# This file was created Wed Sep  2 22:09:40 2026
+# Created by:
+#                       :-) GROMACS - gmx awh, 2024.6 (-:
+# 
+# Executable:   /usr/local/gromacs/bin/gmx
+# Data prefix:  /usr/local/gromacs
+# Working dir:  /home/ubuntu/software/gromacs-2024.6/binder95-amber-pH2-500ns
+# Command line:
+#   gmx awh -s awh95-site84_sim.tpr -f awh95-site84_sim.edr -o pmf-site84_final.xvg
+# gmx awh is part of G R O M A C S:
+#
+# GROningen Mixture of Alchemy and Childrens' Stories
+#
+@    title "AWH"
+@    xaxis  label "(nm, deg or lambda state)"
+@    yaxis  label "(kJ/mol)"
+@TYPE xy
+@ view 0.15, 0.15, 0.75, 0.85
+@ legend on
+@ legend box on
+@ legend loctype view
+@ legend 0.78, 0.8
+@ legend length 2
+@ s0 legend "PMF"
+# AWH metadata: target error = 4.01 kT = 10.00 kJ/mol
+# AWH metadata: log sample weight = 4.00
+    0.0000  43.6066
+    0.0488  43.6066
+    0.0976  43.6066
+    0.1463  43.6066
+    0.1951  43.6066
+    0.2439  43.6066
+    0.2927  43.6066
+    0.3415  43.6066
+    0.3902  43.6066
+    0.4390  43.6066
+    0.4878  43.6066
+    0.5366  43.6066
+    0.5854  43.6066
+    0.6341  43.6066
+    0.6829  43.6066
+    0.7317  43.6066
+    0.7805  43.6066
+    0.8293  43.6066
+    0.8780  43.6066
+    0.9268  43.6066
+    0.9756  43.6066
+    1.0244  43.6066
+    1.0732  43.6066
+    1.1220  43.6066
+    1.1707  41.4285
+    1.2195  20.7801
+    1.2683  5.60057
+    1.3171  0
+    1.3659  2.05716
+    1.4146  8.87867
+    1.4634  17.2205
+    1.5122  26.4775
+    1.5610  35.689
+    1.6098  42.4339
+    1.6585  43.5736
+    1.7073  43.6066
+    1.7561  43.6066
+    1.8049  43.6066
+    1.8537  43.6066
+    1.9024  43.6066
+    1.9512  43.6066
+    2.0000  43.6066

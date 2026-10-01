@@ -1,0 +1,68 @@
+# This file was created Wed Sep  2 16:26:18 2026
+# Created by:
+#                       :-) GROMACS - gmx awh, 2024.6 (-:
+# 
+# Executable:   /usr/local/gromacs/bin/gmx
+# Data prefix:  /usr/local/gromacs
+# Working dir:  /home/ubuntu/software/gromacs-2024.6/binder95-amber-pH2-500ns
+# Command line:
+#   gmx awh -s awh95-site64_sim.tpr -f awh95-site64_sim.edr -o pmf-site64_final.xvg
+# gmx awh is part of G R O M A C S:
+#
+# GROwing Monsters And Cloning Shrimps
+#
+@    title "AWH"
+@    xaxis  label "(nm, deg or lambda state)"
+@    yaxis  label "(kJ/mol)"
+@TYPE xy
+@ view 0.15, 0.15, 0.75, 0.85
+@ legend on
+@ legend box on
+@ legend loctype view
+@ legend 0.78, 0.8
+@ legend length 2
+@ s0 legend "PMF"
+# AWH metadata: target error = 4.01 kT = 10.00 kJ/mol
+# AWH metadata: log sample weight = 4.00
+    0.0000  43.0556
+    0.0488  43.0556
+    0.0976  43.0556
+    0.1463  43.0556
+    0.1951  43.0556
+    0.2439  43.0556
+    0.2927  43.0556
+    0.3415  43.0556
+    0.3902  43.0556
+    0.4390  43.0556
+    0.4878  43.0556
+    0.5366  43.0556
+    0.5854  43.0556
+    0.6341  43.0556
+    0.6829  43.0556
+    0.7317  43.0506
+    0.7805  40.1237
+    0.8293  28.2688
+    0.8780  17.3555
+    0.9268  7.46566
+    0.9756  0.955568
+    1.0244  0
+    1.0732  5.34207
+    1.1220  16.3915
+    1.1707  32.1639
+    1.2195  42.8857
+    1.2683  43.0556
+    1.3171  43.0556
+    1.3659  43.0556
+    1.4146  43.0556
+    1.4634  43.0556
+    1.5122  43.0556
+    1.5610  43.0556
+    1.6098  43.0556
+    1.6585  43.0556
+    1.7073  43.0556
+    1.7561  43.0556
+    1.8049  43.0556
+    1.8537  43.0556
+    1.9024  43.0556
+    1.9512  43.0556
+    2.0000  43.0556

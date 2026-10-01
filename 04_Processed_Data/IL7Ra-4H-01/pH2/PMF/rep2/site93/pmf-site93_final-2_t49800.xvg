@@ -1,0 +1,68 @@
+# This file was created Thu Sep 10 08:47:00 2026
+# Created by:
+#                       :-) GROMACS - gmx awh, 2024.6 (-:
+# 
+# Executable:   /usr/local/gromacs/bin/gmx
+# Data prefix:  /usr/local/gromacs
+# Working dir:  /home/ubuntu/software/gromacs-2024.6/PMF/yiwancheng-5
+# Command line:
+#   gmx awh -s awh95-site93_sim-3.tpr -f awh95-site93_sim-3.edr -o pmf-site93_final-3.xvg
+# gmx awh is part of G R O M A C S:
+#
+# Great Red Owns Many ACres of Sand 
+#
+@    title "AWH"
+@    xaxis  label "(nm, deg or lambda state)"
+@    yaxis  label "(kJ/mol)"
+@TYPE xy
+@ view 0.15, 0.15, 0.75, 0.85
+@ legend on
+@ legend box on
+@ legend loctype view
+@ legend 0.78, 0.8
+@ legend length 2
+@ s0 legend "PMF"
+# AWH metadata: target error = 4.01 kT = 10.00 kJ/mol
+# AWH metadata: log sample weight = 4.00
+    0.0000  43.7775
+    0.0488  43.7775
+    0.0976  43.7775
+    0.1463  43.7775
+    0.1951  43.7775
+    0.2439  43.7775
+    0.2927  43.7775
+    0.3415  43.7775
+    0.3902  43.7775
+    0.4390  43.7775
+    0.4878  43.7775
+    0.5366  43.7775
+    0.5854  43.7775
+    0.6341  37.7454
+    0.6829  17.4953
+    0.7317  5.09017
+    0.7805  0
+    0.8293  1.62452
+    0.8780  9.11418
+    0.9268  20.3571
+    0.9756  34.7599
+    1.0244  43.7432
+    1.0732  43.7775
+    1.1220  43.7775
+    1.1707  43.7775
+    1.2195  43.7775
+    1.2683  43.7775
+    1.3171  43.7775
+    1.3659  43.7775
+    1.4146  43.7775
+    1.4634  43.7775
+    1.5122  43.7775
+    1.5610  43.7775
+    1.6098  43.7775
+    1.6585  43.7775
+    1.7073  43.7775
+    1.7561  43.7775
+    1.8049  43.7775
+    1.8537  43.7775
+    1.9024  43.7775
+    1.9512  43.7775
+    2.0000  43.7775

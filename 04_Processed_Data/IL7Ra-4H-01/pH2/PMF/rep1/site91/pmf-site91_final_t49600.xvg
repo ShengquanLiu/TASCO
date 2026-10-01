@@ -1,0 +1,68 @@
+# This file was created Thu Sep  3 08:23:15 2026
+# Created by:
+#                       :-) GROMACS - gmx awh, 2024.6 (-:
+# 
+# Executable:   /usr/local/gromacs/bin/gmx
+# Data prefix:  /usr/local/gromacs
+# Working dir:  /home/ubuntu/software/gromacs-2024.6/binder95-amber-pH2-500ns-PMF
+# Command line:
+#   gmx awh -s awh95-site91_sim.tpr -f awh95-site91_sim.edr -o pmf-site91_final.xvg
+# gmx awh is part of G R O M A C S:
+#
+# Gallium Rubidium Oxygen Manganese Argon Carbon Silicon
+#
+@    title "AWH"
+@    xaxis  label "(nm, deg or lambda state)"
+@    yaxis  label "(kJ/mol)"
+@TYPE xy
+@ view 0.15, 0.15, 0.75, 0.85
+@ legend on
+@ legend box on
+@ legend loctype view
+@ legend 0.78, 0.8
+@ legend length 2
+@ s0 legend "PMF"
+# AWH metadata: target error = 4.01 kT = 10.00 kJ/mol
+# AWH metadata: log sample weight = 3.99
+    0.0000  41.4129
+    0.0488  41.4129
+    0.0976  41.4129
+    0.1463  41.4129
+    0.1951  41.4129
+    0.2439  41.4129
+    0.2927  41.4129
+    0.3415  41.4129
+    0.3902  41.4129
+    0.4390  41.4129
+    0.4878  40.1297
+    0.5366  21.864
+    0.5854  9.38539
+    0.6341  2.40485
+    0.6829  0
+    0.7317  1.95073
+    0.7805  7.7607
+    0.8293  16.169
+    0.8780  26.2907
+    0.9268  37.4322
+    0.9756  41.3522
+    1.0244  41.4129
+    1.0732  41.4129
+    1.1220  41.4129
+    1.1707  41.4129
+    1.2195  41.4129
+    1.2683  41.4129
+    1.3171  41.4129
+    1.3659  41.4129
+    1.4146  41.4129
+    1.4634  41.4129
+    1.5122  41.4129
+    1.5610  41.4129
+    1.6098  41.4129
+    1.6585  41.4129
+    1.7073  41.4129
+    1.7561  41.4129
+    1.8049  41.4129
+    1.8537  41.4129
+    1.9024  41.4129
+    1.9512  41.4129
+    2.0000  41.4129

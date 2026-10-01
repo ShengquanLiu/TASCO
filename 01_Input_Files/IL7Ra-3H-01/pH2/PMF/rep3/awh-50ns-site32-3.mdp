@@ -1,0 +1,74 @@
+; ==================== 基础 MD 参数 ====================
+integrator              = md
+dt                      = 0.002          ; 2 fs
+nsteps                  = 25000000        ; 50 ns (5000000 * 2 fs = 10000 ps)
+
+; 输出频率
+nstxout                 = 5000           ; 每 10 ps 保存一次坐标
+nstvout                 = 5000           ; 每 10 ps 保存一次速度
+nstfout                 = 5000           ; 每 10 ps 保存一次力
+nstenergy               = 1000           ; 每 2 ps 保存一次能量
+nstlog                  = 1000           ; 每 2 ps 写入日志
+nstxout-compressed      = 5000           ; 每 10 ps 保存压缩轨迹
+
+; ==================== 近邻搜索与相互作用 ====================
+cutoff-scheme           = Verlet
+ns_type                 = grid
+rlist                   = 1.0
+rcoulomb                = 1.0
+rvdw                    = 1.0
+coulombtype             = PME
+pme_order               = 4
+fourierspacing          = 0.16
+vdwtype                 = Cut-off
+vdw-modifier            = Potential-shift
+
+; ==================== 温度耦合（AWH 必须使用单一温度组） ====================
+tcoupl                  = V-rescale
+tc-grps                 = System
+tau_t                   = 0.1
+ref_t                   = 300
+
+; ==================== 压力耦合 ====================
+pcoupl                  = Parrinello-Rahman
+pcoupltype              = isotropic
+tau_p                   = 2.0
+ref_p                   = 1.0
+compressibility         = 4.5e-5
+
+; ==================== 约束 ====================
+constraints             = h-bonds
+constraint-algorithm    = LINCS
+
+; ==================== 初始速度生成 ====================
+gen-vel                 = yes
+gen-temp                = 300
+gen-seed                = -1
+
+; ==================== AWH 配合 Pull ====================
+pull                    = yes
+pull-ngroups            = 2
+pull-ncoords            = 1
+pull-group1-name        = resid_32
+pull-group2-name        = resid_32-othergroup
+pull-coord1-groups      = 1 2
+pull-coord1-type        = external_potential
+pull-coord1-potential-provider = awh
+pull-coord1-geometry    = distance
+pull-coord1-dim         = Y Y Y
+pull-coord1-start       = yes
+pull-coord1-init        = 0.0
+pull-coord1-rate        = 0.0
+pull-coord1-k           = 0.0
+
+awh                     = yes
+awh-nbias               = 1
+awh1-ndim               = 1
+awh1-dim1-coord-provider = pull
+awh1-dim1-coord-index   = 1
+awh1-dim1-start         = 0.0
+awh1-dim1-end           = 2.0          ; 扩大范围以包含初始距离 1.177 nm
+awh1-dim1-force-constant = 1000        ; kJ mol^-1 nm^-2
+awh1-dim1-diffusion     = 1e-5         ; nm^2/ps，初始估计值
+awh1-target             = constant
+awh1-growth             = exp_linear

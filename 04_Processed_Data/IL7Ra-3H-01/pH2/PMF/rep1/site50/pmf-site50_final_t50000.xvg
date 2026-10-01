@@ -1,0 +1,68 @@
+# This file was created Wed Sep  9 14:33:13 2026
+# Created by:
+#                       :-) GROMACS - gmx awh, 2024.6 (-:
+# 
+# Executable:   /usr/local/gromacs/bin/gmx
+# Data prefix:  /usr/local/gromacs
+# Working dir:  /home/ubuntu/software/gromacs-2024.6/PMF/yiwancheng-4
+# Command line:
+#   gmx awh -s awh96-site50_sim.tpr -f awh96-site50_sim.edr -o pmf-site50_final.xvg
+# gmx awh is part of G R O M A C S:
+#
+# Great Red Oystrich Makes All Chemists Sane
+#
+@    title "AWH"
+@    xaxis  label "(nm, deg or lambda state)"
+@    yaxis  label "(kJ/mol)"
+@TYPE xy
+@ view 0.15, 0.15, 0.75, 0.85
+@ legend on
+@ legend box on
+@ legend loctype view
+@ legend 0.78, 0.8
+@ legend length 2
+@ s0 legend "PMF"
+# AWH metadata: target error = 4.01 kT = 10.00 kJ/mol
+# AWH metadata: log sample weight = 4.02
+    0.0000  42.4905
+    0.0488  42.4905
+    0.0976  42.4905
+    0.1463  42.4905
+    0.1951  42.4905
+    0.2439  42.4905
+    0.2927  42.4905
+    0.3415  42.4905
+    0.3902  42.4905
+    0.4390  42.4905
+    0.4878  42.4905
+    0.5366  42.4905
+    0.5854  42.4905
+    0.6341  42.4905
+    0.6829  42.4905
+    0.7317  42.4905
+    0.7805  42.4905
+    0.8293  42.4905
+    0.8780  42.4905
+    0.9268  42.4905
+    0.9756  42.4905
+    1.0244  42.4905
+    1.0732  42.4905
+    1.1220  42.4905
+    1.1707  39.6426
+    1.2195  24.1699
+    1.2683  11.5685
+    1.3171  2.97802
+    1.3659  0
+    1.4146  1.95756
+    1.4634  8.57103
+    1.5122  17.8834
+    1.5610  28.9403
+    1.6098  39.49
+    1.6585  42.446
+    1.7073  42.4905
+    1.7561  42.4905
+    1.8049  42.4905
+    1.8537  42.4905
+    1.9024  42.4905
+    1.9512  42.4905
+    2.0000  42.4905

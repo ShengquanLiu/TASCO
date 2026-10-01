@@ -1,0 +1,68 @@
+# This file was created Mon Sep 14 08:33:43 2026
+# Created by:
+#                       :-) GROMACS - gmx awh, 2024.6 (-:
+# 
+# Executable:   /usr/local/gromacs/bin/gmx
+# Data prefix:  /usr/local/gromacs
+# Working dir:  /home/ubuntu/software/gromacs-2024.6/PMF/yiwancheng-7
+# Command line:
+#   gmx awh -s awh95-site94_sim.tpr -f awh95-site94_sim.edr -o pmf-site94_final.xvg
+# gmx awh is part of G R O M A C S:
+#
+# GROningen MAchine for Chemical Simulation
+#
+@    title "AWH"
+@    xaxis  label "(nm, deg or lambda state)"
+@    yaxis  label "(kJ/mol)"
+@TYPE xy
+@ view 0.15, 0.15, 0.75, 0.85
+@ legend on
+@ legend box on
+@ legend loctype view
+@ legend 0.78, 0.8
+@ legend length 2
+@ s0 legend "PMF"
+# AWH metadata: target error = 4.01 kT = 10.00 kJ/mol
+# AWH metadata: log sample weight = 3.94
+    0.0000  43.5075
+    0.0488  43.5075
+    0.0976  43.5075
+    0.1463  43.5075
+    0.1951  43.5075
+    0.2439  43.5075
+    0.2927  43.5075
+    0.3415  42.6019
+    0.3902  23.8938
+    0.4390  7.49204
+    0.4878  0
+    0.5366  0.427972
+    0.5854  7.64558
+    0.6341  20.4619
+    0.6829  39.0782
+    0.7317  43.5075
+    0.7805  43.5075
+    0.8293  43.5075
+    0.8780  43.5075
+    0.9268  43.5075
+    0.9756  43.5075
+    1.0244  43.5075
+    1.0732  43.5075
+    1.1220  43.5075
+    1.1707  43.5075
+    1.2195  43.5075
+    1.2683  43.5075
+    1.3171  43.5075
+    1.3659  43.5075
+    1.4146  43.5075
+    1.4634  43.5075
+    1.5122  43.5075
+    1.5610  43.5075
+    1.6098  43.5075
+    1.6585  43.5075
+    1.7073  43.5075
+    1.7561  43.5075
+    1.8049  43.5075
+    1.8537  43.5075
+    1.9024  43.5075
+    1.9512  43.5075
+    2.0000  43.5075

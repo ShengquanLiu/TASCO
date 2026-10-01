@@ -1,0 +1,68 @@
+# This file was created Thu Sep 10 08:46:15 2026
+# Created by:
+#                       :-) GROMACS - gmx awh, 2024.6 (-:
+# 
+# Executable:   /usr/local/gromacs/bin/gmx
+# Data prefix:  /usr/local/gromacs
+# Working dir:  /home/ubuntu/software/gromacs-2024.6/PMF/yiwancheng-5
+# Command line:
+#   gmx awh -s awh95-site87_sim-3.tpr -f awh95-site87_sim-3.edr -o pmf-site87_final-3.xvg
+# gmx awh is part of G R O M A C S:
+#
+# God Rules Over Mankind, Animals, Cosmos and Such
+#
+@    title "AWH"
+@    xaxis  label "(nm, deg or lambda state)"
+@    yaxis  label "(kJ/mol)"
+@TYPE xy
+@ view 0.15, 0.15, 0.75, 0.85
+@ legend on
+@ legend box on
+@ legend loctype view
+@ legend 0.78, 0.8
+@ legend length 2
+@ s0 legend "PMF"
+# AWH metadata: target error = 4.01 kT = 10.00 kJ/mol
+# AWH metadata: log sample weight = 4.00
+    0.0000  45.1606
+    0.0488  45.1606
+    0.0976  45.1606
+    0.1463  45.1606
+    0.1951  45.1606
+    0.2439  45.1606
+    0.2927  45.1606
+    0.3415  45.1606
+    0.3902  45.1606
+    0.4390  45.1606
+    0.4878  45.1606
+    0.5366  45.1606
+    0.5854  45.1606
+    0.6341  32.9352
+    0.6829  15.4474
+    0.7317  3.44897
+    0.7805  0
+    0.8293  5.27466
+    0.8780  16.0778
+    0.9268  26.7445
+    0.9756  36.228
+    1.0244  44.2384
+    1.0732  45.1505
+    1.1220  45.1601
+    1.1707  45.1606
+    1.2195  45.1606
+    1.2683  45.1606
+    1.3171  45.1606
+    1.3659  45.1606
+    1.4146  45.1606
+    1.4634  45.1606
+    1.5122  45.1606
+    1.5610  45.1606
+    1.6098  45.1606
+    1.6585  45.1606
+    1.7073  45.1606
+    1.7561  45.1606
+    1.8049  45.1606
+    1.8537  45.1606
+    1.9024  45.1606
+    1.9512  45.1606
+    2.0000  45.1606

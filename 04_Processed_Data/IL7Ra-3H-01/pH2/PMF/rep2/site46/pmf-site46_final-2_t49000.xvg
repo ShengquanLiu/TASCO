@@ -1,0 +1,68 @@
+# This file was created Wed Sep 16 12:30:45 2026
+# Created by:
+#                       :-) GROMACS - gmx awh, 2024.6 (-:
+# 
+# Executable:   /usr/local/gromacs/bin/gmx
+# Data prefix:  /usr/local/gromacs
+# Working dir:  /home/ubuntu/software/gromacs-2024.6/PMF-3
+# Command line:
+#   gmx awh -s awh96-site46_sim-3.tpr -f awh96-site46_sim-3.edr -o pmf-site46_final-3.xvg
+# gmx awh is part of G R O M A C S:
+#
+# Giant Rising Ordinary Mutants for A Clerical Setup
+#
+@    title "AWH"
+@    xaxis  label "(nm, deg or lambda state)"
+@    yaxis  label "(kJ/mol)"
+@TYPE xy
+@ view 0.15, 0.15, 0.75, 0.85
+@ legend on
+@ legend box on
+@ legend loctype view
+@ legend 0.78, 0.8
+@ legend length 2
+@ s0 legend "PMF"
+# AWH metadata: target error = 4.01 kT = 10.00 kJ/mol
+# AWH metadata: log sample weight = 3.94
+    0.0000  36.5296
+    0.0488  36.5296
+    0.0976  36.5296
+    0.1463  36.5296
+    0.1951  36.5296
+    0.2439  36.5296
+    0.2927  36.5296
+    0.3415  36.5296
+    0.3902  36.5296
+    0.4390  36.5296
+    0.4878  36.5296
+    0.5366  36.5296
+    0.5854  36.5296
+    0.6341  36.5296
+    0.6829  36.5296
+    0.7317  36.5296
+    0.7805  36.5296
+    0.8293  36.5296
+    0.8780  36.5296
+    0.9268  36.5296
+    0.9756  36.5296
+    1.0244  36.4772
+    1.0732  28.4177
+    1.1220  19.3233
+    1.1707  14.804
+    1.2195  15.1143
+    1.2683  8.98974
+    1.3171  3.16363
+    1.3659  0
+    1.4146  0.571118
+    1.4634  4.2351
+    1.5122  9.69616
+    1.5610  17.2742
+    1.6098  26.9151
+    1.6585  34.9693
+    1.7073  36.5011
+    1.7561  36.5296
+    1.8049  36.5296
+    1.8537  36.5296
+    1.9024  36.5296
+    1.9512  36.5296
+    2.0000  36.5296

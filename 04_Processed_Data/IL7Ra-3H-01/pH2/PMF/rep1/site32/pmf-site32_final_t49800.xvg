@@ -1,0 +1,68 @@
+# This file was created Thu Sep  3 08:16:20 2026
+# Created by:
+#                       :-) GROMACS - gmx awh, 2024.6 (-:
+# 
+# Executable:   /usr/local/gromacs/bin/gmx
+# Data prefix:  /usr/local/gromacs
+# Working dir:  /home/ubuntu/software/gromacs-2024.6/binder96-amber-pH2-500ns
+# Command line:
+#   gmx awh -s awh96-site32_sim.tpr -f awh96-site32_sim.edr -o pmf-site32_final.xvg
+# gmx awh is part of G R O M A C S:
+#
+# GROup of MAchos and Cynical Suckers
+#
+@    title "AWH"
+@    xaxis  label "(nm, deg or lambda state)"
+@    yaxis  label "(kJ/mol)"
+@TYPE xy
+@ view 0.15, 0.15, 0.75, 0.85
+@ legend on
+@ legend box on
+@ legend loctype view
+@ legend 0.78, 0.8
+@ legend length 2
+@ s0 legend "PMF"
+# AWH metadata: target error = 4.01 kT = 10.00 kJ/mol
+# AWH metadata: log sample weight = 4.00
+    0.0000  46.2869
+    0.0488  46.2869
+    0.0976  46.2869
+    0.1463  46.2869
+    0.1951  46.2869
+    0.2439  46.2869
+    0.2927  46.2869
+    0.3415  46.2869
+    0.3902  46.2869
+    0.4390  46.2869
+    0.4878  46.2869
+    0.5366  46.2869
+    0.5854  46.2869
+    0.6341  46.2869
+    0.6829  46.2869
+    0.7317  46.2869
+    0.7805  40.0294
+    0.8293  20.2047
+    0.8780  4.43435
+    0.9268  0
+    0.9756  5.9491
+    1.0244  20.5641
+    1.0732  37.6141
+    1.1220  46.2869
+    1.1707  46.2869
+    1.2195  46.2869
+    1.2683  46.2869
+    1.3171  46.2869
+    1.3659  46.2869
+    1.4146  46.2869
+    1.4634  46.2869
+    1.5122  46.2869
+    1.5610  46.2869
+    1.6098  46.2869
+    1.6585  46.2869
+    1.7073  46.2869
+    1.7561  46.2869
+    1.8049  46.2869
+    1.8537  46.2869
+    1.9024  46.2869
+    1.9512  46.2869
+    2.0000  46.2869

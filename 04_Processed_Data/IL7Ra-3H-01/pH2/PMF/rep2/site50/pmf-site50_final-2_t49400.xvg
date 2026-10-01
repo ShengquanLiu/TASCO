@@ -1,0 +1,68 @@
+# This file was created Tue Sep  8 21:24:52 2026
+# Created by:
+#                       :-) GROMACS - gmx awh, 2024.6 (-:
+# 
+# Executable:   /usr/local/gromacs/bin/gmx
+# Data prefix:  /usr/local/gromacs
+# Working dir:  /home/ubuntu/software/gromacs-2024.6/PMF/yiwancheng-3
+# Command line:
+#   gmx awh -s awh96-site50_sim-3.tpr -f awh96-site50_sim-3.edr -o pmf-site50_final-3.xvg
+# gmx awh is part of G R O M A C S:
+#
+# Gromacs Runs One Microsecond At Cannonball Speeds
+#
+@    title "AWH"
+@    xaxis  label "(nm, deg or lambda state)"
+@    yaxis  label "(kJ/mol)"
+@TYPE xy
+@ view 0.15, 0.15, 0.75, 0.85
+@ legend on
+@ legend box on
+@ legend loctype view
+@ legend 0.78, 0.8
+@ legend length 2
+@ s0 legend "PMF"
+# AWH metadata: target error = 4.01 kT = 10.00 kJ/mol
+# AWH metadata: log sample weight = 3.97
+    0.0000  36.5049
+    0.0488  36.5049
+    0.0976  36.5049
+    0.1463  36.5049
+    0.1951  36.5049
+    0.2439  36.5049
+    0.2927  36.5049
+    0.3415  36.5049
+    0.3902  36.5049
+    0.4390  36.5049
+    0.4878  36.5049
+    0.5366  36.5049
+    0.5854  36.5049
+    0.6341  36.5049
+    0.6829  36.5049
+    0.7317  36.5049
+    0.7805  36.5049
+    0.8293  36.5049
+    0.8780  36.5049
+    0.9268  36.5049
+    0.9756  36.5049
+    1.0244  36.5049
+    1.0732  36.5049
+    1.1220  36.5049
+    1.1707  36.3024
+    1.2195  26.1473
+    1.2683  14.1861
+    1.3171  5.11971
+    1.3659  0.478674
+    1.4146  0
+    1.4634  1.91783
+    1.5122  5.26742
+    1.5610  10.4721
+    1.6098  16.7301
+    1.6585  24.1121
+    1.7073  29.5094
+    1.7561  31.4905
+    1.8049  32.0154
+    1.8537  31.7917
+    1.9024  33.3768
+    1.9512  35.457
+    2.0000  36.311

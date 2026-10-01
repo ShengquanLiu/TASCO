@@ -1,0 +1,68 @@
+# This file was created Thu Sep  3 00:52:39 2026
+# Created by:
+#                       :-) GROMACS - gmx awh, 2024.6 (-:
+# 
+# Executable:   /usr/local/gromacs/bin/gmx
+# Data prefix:  /usr/local/gromacs
+# Working dir:  /home/ubuntu/software/gromacs-2024.6/binder95-amber-pH2-500ns-PMF
+# Command line:
+#   gmx awh -s awh96-site39_sim.tpr -f awh96-site39_sim.edr -o pmf-site39_final.xvg
+# gmx awh is part of G R O M A C S:
+#
+# GRowing Old MAkes el Chrono Sweat
+#
+@    title "AWH"
+@    xaxis  label "(nm, deg or lambda state)"
+@    yaxis  label "(kJ/mol)"
+@TYPE xy
+@ view 0.15, 0.15, 0.75, 0.85
+@ legend on
+@ legend box on
+@ legend loctype view
+@ legend 0.78, 0.8
+@ legend length 2
+@ s0 legend "PMF"
+# AWH metadata: target error = 4.01 kT = 10.00 kJ/mol
+# AWH metadata: log sample weight = 3.97
+    0.0000  45.2089
+    0.0488  45.2089
+    0.0976  45.1899
+    0.1463  36.3362
+    0.1951  24.7839
+    0.2439  22.242
+    0.2927  7.71177
+    0.3415  0
+    0.3902  2.6259
+    0.4390  15.8409
+    0.4878  35.9072
+    0.5366  45.2089
+    0.5854  45.2089
+    0.6341  45.2089
+    0.6829  45.2089
+    0.7317  45.2089
+    0.7805  45.2089
+    0.8293  45.2089
+    0.8780  45.2089
+    0.9268  45.2089
+    0.9756  45.2089
+    1.0244  45.2089
+    1.0732  45.2089
+    1.1220  45.2089
+    1.1707  45.2089
+    1.2195  45.2089
+    1.2683  45.2089
+    1.3171  45.2089
+    1.3659  45.2089
+    1.4146  45.2089
+    1.4634  45.2089
+    1.5122  45.2089
+    1.5610  45.2089
+    1.6098  45.2089
+    1.6585  45.2089
+    1.7073  45.2089
+    1.7561  45.2089
+    1.8049  45.2089
+    1.8537  45.2089
+    1.9024  45.2089
+    1.9512  45.2089
+    2.0000  45.2089

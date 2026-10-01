@@ -1,0 +1,68 @@
+# This file was created Fri Sep 11 16:27:06 2026
+# Created by:
+#                       :-) GROMACS - gmx awh, 2024.6 (-:
+# 
+# Executable:   /usr/local/gromacs/bin/gmx
+# Data prefix:  /usr/local/gromacs
+# Working dir:  /home/ubuntu/software/gromacs-2024.6/PMF/yiwancheng-6
+# Command line:
+#   gmx awh -s awh95-site64_sim-4.tpr -f awh95-site64_sim-4.edr -o pmf-site64_final-4.xvg
+# gmx awh is part of G R O M A C S:
+#
+# GRoups of Organic Molecules in ACtion for Science
+#
+@    title "AWH"
+@    xaxis  label "(nm, deg or lambda state)"
+@    yaxis  label "(kJ/mol)"
+@TYPE xy
+@ view 0.15, 0.15, 0.75, 0.85
+@ legend on
+@ legend box on
+@ legend loctype view
+@ legend 0.78, 0.8
+@ legend length 2
+@ s0 legend "PMF"
+# AWH metadata: target error = 4.01 kT = 10.00 kJ/mol
+# AWH metadata: log sample weight = 4.02
+    0.0000  42.7426
+    0.0488  42.7426
+    0.0976  42.7426
+    0.1463  42.7426
+    0.1951  42.7426
+    0.2439  42.7426
+    0.2927  42.7426
+    0.3415  42.7426
+    0.3902  42.7426
+    0.4390  42.7426
+    0.4878  42.7426
+    0.5366  42.7426
+    0.5854  42.7426
+    0.6341  42.7426
+    0.6829  42.7426
+    0.7317  41.2019
+    0.7805  29.9277
+    0.8293  18.6571
+    0.8780  9.13268
+    0.9268  2.24894
+    0.9756  0
+    1.0244  3.03036
+    1.0732  11.646
+    1.1220  24.8277
+    1.1707  39.0775
+    1.2195  42.7426
+    1.2683  42.7426
+    1.3171  42.7426
+    1.3659  42.7426
+    1.4146  42.7426
+    1.4634  42.7426
+    1.5122  42.7426
+    1.5610  42.7426
+    1.6098  42.7426
+    1.6585  42.7426
+    1.7073  42.7426
+    1.7561  42.7426
+    1.8049  42.7426
+    1.8537  42.7426
+    1.9024  42.7426
+    1.9512  42.7426
+    2.0000  42.7426

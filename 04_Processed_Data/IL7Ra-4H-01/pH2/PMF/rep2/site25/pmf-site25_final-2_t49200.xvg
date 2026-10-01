@@ -1,0 +1,68 @@
+# This file was created Wed Sep  9 14:30:36 2026
+# Created by:
+#                       :-) GROMACS - gmx awh, 2024.6 (-:
+# 
+# Executable:   /usr/local/gromacs/bin/gmx
+# Data prefix:  /usr/local/gromacs
+# Working dir:  /home/ubuntu/software/gromacs-2024.6/PMF/yiwancheng-4
+# Command line:
+#   gmx awh -s awh95-site25_sim-3.tpr -f awh95-site25_sim-3.edr -o pmf-site25_final-3.xvg
+# gmx awh is part of G R O M A C S:
+#
+# Good ROcking Metal Altar for Chronical Sinners
+#
+@    title "AWH"
+@    xaxis  label "(nm, deg or lambda state)"
+@    yaxis  label "(kJ/mol)"
+@TYPE xy
+@ view 0.15, 0.15, 0.75, 0.85
+@ legend on
+@ legend box on
+@ legend loctype view
+@ legend 0.78, 0.8
+@ legend length 2
+@ s0 legend "PMF"
+# AWH metadata: target error = 4.01 kT = 10.00 kJ/mol
+# AWH metadata: log sample weight = 3.95
+    0.0000  38.5835
+    0.0488  38.5835
+    0.0976  38.5835
+    0.1463  38.5835
+    0.1951  38.5835
+    0.2439  38.5835
+    0.2927  38.5835
+    0.3415  38.5835
+    0.3902  38.5835
+    0.4390  38.5835
+    0.4878  38.5835
+    0.5366  38.5835
+    0.5854  38.5835
+    0.6341  38.5835
+    0.6829  38.5835
+    0.7317  38.5835
+    0.7805  38.5835
+    0.8293  38.5835
+    0.8780  38.5835
+    0.9268  38.5835
+    0.9756  38.5835
+    1.0244  38.5835
+    1.0732  38.5835
+    1.1220  38.5835
+    1.1707  38.5835
+    1.2195  38.5835
+    1.2683  38.5835
+    1.3171  38.5835
+    1.3659  38.5079
+    1.4146  26.3
+    1.4634  10.593
+    1.5122  2.40523
+    1.5610  0
+    1.6098  1.22851
+    1.6585  4.22925
+    1.7073  8.48895
+    1.7561  14.2799
+    1.8049  21.5647
+    1.8537  30.5686
+    1.9024  37.4589
+    1.9512  38.5454
+    2.0000  38.5816

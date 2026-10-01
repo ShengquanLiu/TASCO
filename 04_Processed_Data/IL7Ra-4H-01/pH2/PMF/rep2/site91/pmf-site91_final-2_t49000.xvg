@@ -1,0 +1,68 @@
+# This file was created Thu Sep 10 08:46:36 2026
+# Created by:
+#                       :-) GROMACS - gmx awh, 2024.6 (-:
+# 
+# Executable:   /usr/local/gromacs/bin/gmx
+# Data prefix:  /usr/local/gromacs
+# Working dir:  /home/ubuntu/software/gromacs-2024.6/PMF/yiwancheng-5
+# Command line:
+#   gmx awh -s awh95-site91_sim-3.tpr -f awh95-site91_sim-3.edr -o pmf-site91_final-3.xvg
+# gmx awh is part of G R O M A C S:
+#
+# Gravel Rubs Often Many Awfully Cauterized Sores
+#
+@    title "AWH"
+@    xaxis  label "(nm, deg or lambda state)"
+@    yaxis  label "(kJ/mol)"
+@TYPE xy
+@ view 0.15, 0.15, 0.75, 0.85
+@ legend on
+@ legend box on
+@ legend loctype view
+@ legend 0.78, 0.8
+@ legend length 2
+@ s0 legend "PMF"
+# AWH metadata: target error = 4.01 kT = 10.00 kJ/mol
+# AWH metadata: log sample weight = 3.94
+    0.0000  41.409
+    0.0488  41.409
+    0.0976  41.409
+    0.1463  41.409
+    0.1951  41.409
+    0.2439  41.409
+    0.2927  41.409
+    0.3415  41.409
+    0.3902  41.409
+    0.4390  41.409
+    0.4878  40.3753
+    0.5366  22.7796
+    0.5854  9.74746
+    0.6341  2.47573
+    0.6829  0
+    0.7317  2.18325
+    0.7805  8.21193
+    0.8293  17.1479
+    0.8780  28.1986
+    0.9268  38.7633
+    0.9756  41.3988
+    1.0244  41.409
+    1.0732  41.409
+    1.1220  41.409
+    1.1707  41.409
+    1.2195  41.409
+    1.2683  41.409
+    1.3171  41.409
+    1.3659  41.409
+    1.4146  41.409
+    1.4634  41.409
+    1.5122  41.409
+    1.5610  41.409
+    1.6098  41.409
+    1.6585  41.409
+    1.7073  41.409
+    1.7561  41.409
+    1.8049  41.409
+    1.8537  41.409
+    1.9024  41.409
+    1.9512  41.409
+    2.0000  41.409

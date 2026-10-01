@@ -1,0 +1,68 @@
+# This file was created Tue Sep  8 21:24:31 2026
+# Created by:
+#                       :-) GROMACS - gmx awh, 2024.6 (-:
+# 
+# Executable:   /usr/local/gromacs/bin/gmx
+# Data prefix:  /usr/local/gromacs
+# Working dir:  /home/ubuntu/software/gromacs-2024.6/PMF/yiwancheng-3
+# Command line:
+#   gmx awh -s awh96-site39_sim-3.tpr -f awh96-site39_sim-3.edr -o pmf-site39_final-3.xvg
+# gmx awh is part of G R O M A C S:
+#
+# Gallium Rubidium Oxygen Manganese Argon Carbon Silicon
+#
+@    title "AWH"
+@    xaxis  label "(nm, deg or lambda state)"
+@    yaxis  label "(kJ/mol)"
+@TYPE xy
+@ view 0.15, 0.15, 0.75, 0.85
+@ legend on
+@ legend box on
+@ legend loctype view
+@ legend 0.78, 0.8
+@ legend length 2
+@ s0 legend "PMF"
+# AWH metadata: target error = 4.01 kT = 10.00 kJ/mol
+# AWH metadata: log sample weight = 3.99
+    0.0000  46.0622
+    0.0488  46.0622
+    0.0976  46.0622
+    0.1463  46.0622
+    0.1951  22.2213
+    0.2439  5.46868
+    0.2927  0
+    0.3415  4.64779
+    0.3902  18.2628
+    0.4390  37.5059
+    0.4878  46.0622
+    0.5366  46.0622
+    0.5854  46.0622
+    0.6341  46.0622
+    0.6829  46.0622
+    0.7317  46.0622
+    0.7805  46.0622
+    0.8293  46.0622
+    0.8780  46.0622
+    0.9268  46.0622
+    0.9756  46.0622
+    1.0244  46.0622
+    1.0732  46.0622
+    1.1220  46.0622
+    1.1707  46.0622
+    1.2195  46.0622
+    1.2683  46.0622
+    1.3171  46.0622
+    1.3659  46.0622
+    1.4146  46.0622
+    1.4634  46.0622
+    1.5122  46.0622
+    1.5610  46.0622
+    1.6098  46.0622
+    1.6585  46.0622
+    1.7073  46.0622
+    1.7561  46.0622
+    1.8049  46.0622
+    1.8537  46.0622
+    1.9024  46.0622
+    1.9512  46.0622
+    2.0000  46.0622

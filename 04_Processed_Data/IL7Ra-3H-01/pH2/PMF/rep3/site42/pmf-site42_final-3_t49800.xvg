@@ -1,0 +1,68 @@
+# This file was created Wed Sep 16 11:44:20 2026
+# Created by:
+#                       :-) GROMACS - gmx awh, 2024.6 (-:
+# 
+# Executable:   /usr/local/gromacs/bin/gmx
+# Data prefix:  /usr/local/gromacs
+# Working dir:  /home/ubuntu/software/gromacs-2024.6/PMF-4
+# Command line:
+#   gmx awh -s awh96-site42_sim-4.tpr -f awh96-site42_sim-4.edr -o pmf-site42_final-4.xvg
+# gmx awh is part of G R O M A C S:
+#
+# Green Red Orange Magenta Azure Cyan Skyblue
+#
+@    title "AWH"
+@    xaxis  label "(nm, deg or lambda state)"
+@    yaxis  label "(kJ/mol)"
+@TYPE xy
+@ view 0.15, 0.15, 0.75, 0.85
+@ legend on
+@ legend box on
+@ legend loctype view
+@ legend 0.78, 0.8
+@ legend length 2
+@ s0 legend "PMF"
+# AWH metadata: target error = 4.01 kT = 10.00 kJ/mol
+# AWH metadata: log sample weight = 4.00
+    0.0000  41.0729
+    0.0488  41.0729
+    0.0976  41.0729
+    0.1463  41.0729
+    0.1951  41.0729
+    0.2439  41.0729
+    0.2927  41.0729
+    0.3415  41.0729
+    0.3902  41.0729
+    0.4390  41.0729
+    0.4878  41.0729
+    0.5366  36.7818
+    0.5854  15.6335
+    0.6341  7.14432
+    0.6829  5.29064
+    0.7317  0
+    0.7805  1.56257
+    0.8293  8.32371
+    0.8780  17.0365
+    0.9268  26.8785
+    0.9756  39.6765
+    1.0244  41.0729
+    1.0732  41.0729
+    1.1220  41.0729
+    1.1707  41.0729
+    1.2195  41.0729
+    1.2683  41.0729
+    1.3171  41.0729
+    1.3659  41.0729
+    1.4146  41.0729
+    1.4634  41.0729
+    1.5122  41.0729
+    1.5610  41.0729
+    1.6098  41.0729
+    1.6585  41.0729
+    1.7073  41.0729
+    1.7561  41.0729
+    1.8049  41.0729
+    1.8537  41.0729
+    1.9024  41.0729
+    1.9512  41.0729
+    2.0000  41.0729

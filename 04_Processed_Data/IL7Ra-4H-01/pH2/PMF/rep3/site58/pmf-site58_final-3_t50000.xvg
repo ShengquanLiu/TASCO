@@ -1,0 +1,68 @@
+# This file was created Fri Sep 11 16:26:29 2026
+# Created by:
+#                       :-) GROMACS - gmx awh, 2024.6 (-:
+# 
+# Executable:   /usr/local/gromacs/bin/gmx
+# Data prefix:  /usr/local/gromacs
+# Working dir:  /home/ubuntu/software/gromacs-2024.6/PMF/yiwancheng-6
+# Command line:
+#   gmx awh -s awh95-site58_sim-4.tpr -f awh95-site58_sim-4.edr -o pmf-site58_final-4.xvg
+# gmx awh is part of G R O M A C S:
+#
+# Good gRace! Old Maple Actually Chews Slate
+#
+@    title "AWH"
+@    xaxis  label "(nm, deg or lambda state)"
+@    yaxis  label "(kJ/mol)"
+@TYPE xy
+@ view 0.15, 0.15, 0.75, 0.85
+@ legend on
+@ legend box on
+@ legend loctype view
+@ legend 0.78, 0.8
+@ legend length 2
+@ s0 legend "PMF"
+# AWH metadata: target error = 4.01 kT = 10.00 kJ/mol
+# AWH metadata: log sample weight = 4.02
+    0.0000  37.8055
+    0.0488  37.8055
+    0.0976  37.8055
+    0.1463  37.8055
+    0.1951  37.8055
+    0.2439  37.8055
+    0.2927  37.8055
+    0.3415  37.8055
+    0.3902  37.8055
+    0.4390  37.8055
+    0.4878  37.8055
+    0.5366  37.8055
+    0.5854  37.8055
+    0.6341  37.8055
+    0.6829  37.8055
+    0.7317  37.8055
+    0.7805  37.8055
+    0.8293  37.8055
+    0.8780  37.8055
+    0.9268  37.8055
+    0.9756  37.8055
+    1.0244  37.8055
+    1.0732  37.8055
+    1.1220  37.8055
+    1.1707  37.8055
+    1.2195  37.8055
+    1.2683  37.8055
+    1.3171  37.8055
+    1.3659  37.7613
+    1.4146  34.8428
+    1.4634  26.1199
+    1.5122  17.3934
+    1.5610  9.57069
+    1.6098  3.09391
+    1.6585  0
+    1.7073  1.35184
+    1.7561  6.67993
+    1.8049  9.89564
+    1.8537  11.4389
+    1.9024  11.7859
+    1.9512  12.6773
+    2.0000  14.2693

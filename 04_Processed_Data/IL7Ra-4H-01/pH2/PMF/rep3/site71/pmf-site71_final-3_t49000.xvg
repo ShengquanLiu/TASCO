@@ -1,0 +1,68 @@
+# This file was created Fri Sep 11 16:27:30 2026
+# Created by:
+#                       :-) GROMACS - gmx awh, 2024.6 (-:
+# 
+# Executable:   /usr/local/gromacs/bin/gmx
+# Data prefix:  /usr/local/gromacs
+# Working dir:  /home/ubuntu/software/gromacs-2024.6/PMF/yiwancheng-6
+# Command line:
+#   gmx awh -s awh95-site71_sim-4.tpr -f awh95-site71_sim-4.edr -o pmf-site71_final-4.xvg
+# gmx awh is part of G R O M A C S:
+#
+# GROwing Monsters And Cloning Shrimps
+#
+@    title "AWH"
+@    xaxis  label "(nm, deg or lambda state)"
+@    yaxis  label "(kJ/mol)"
+@TYPE xy
+@ view 0.15, 0.15, 0.75, 0.85
+@ legend on
+@ legend box on
+@ legend loctype view
+@ legend 0.78, 0.8
+@ legend length 2
+@ s0 legend "PMF"
+# AWH metadata: target error = 4.01 kT = 10.00 kJ/mol
+# AWH metadata: log sample weight = 3.94
+    0.0000  43.9517
+    0.0488  43.9517
+    0.0976  43.9517
+    0.1463  43.9517
+    0.1951  43.9517
+    0.2439  43.9517
+    0.2927  43.9517
+    0.3415  43.9517
+    0.3902  43.9517
+    0.4390  43.9517
+    0.4878  43.9517
+    0.5366  43.9517
+    0.5854  43.9517
+    0.6341  43.9517
+    0.6829  43.9092
+    0.7317  24.2896
+    0.7805  7.62598
+    0.8293  0
+    0.8780  0.725487
+    0.9268  8.99629
+    0.9756  23.1447
+    1.0244  39.0817
+    1.0732  43.9517
+    1.1220  43.9517
+    1.1707  43.9517
+    1.2195  43.9517
+    1.2683  43.9517
+    1.3171  43.9517
+    1.3659  43.9517
+    1.4146  43.9517
+    1.4634  43.9517
+    1.5122  43.9517
+    1.5610  43.9517
+    1.6098  43.9517
+    1.6585  43.9517
+    1.7073  43.9517
+    1.7561  43.9517
+    1.8049  43.9517
+    1.8537  43.9517
+    1.9024  43.9517
+    1.9512  43.9517
+    2.0000  43.9517
